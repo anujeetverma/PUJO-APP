@@ -109,6 +109,8 @@ Optimization parameters used:
 ⸻
 
 📸 Screenshots
+<img width="563" height="1218" alt="Screenshot 2026-02-11 at 12 14 03" src="https://github.com/user-attachments/assets/72684ec2-3875-432f-a050-32f559c28848" />
+
 
 <img width="563" height="1218" alt="Screenshot 2026-02-11 at 11 14 10" src="https://github.com/user-attachments/assets/c7743860-415b-434f-b759-289b34c60bc1" />
 
