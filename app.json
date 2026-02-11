@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pujo",
+    "name": "Durga pujo",
     "slug": "pujo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+  [
+    "expo-location",
+    {
+      "locationAlwaysAndWhenInUsePermission": "Pujo needs your location to show the nearest Durga Puja pandals."
     }
+  ]
+]
+
   }
 }
