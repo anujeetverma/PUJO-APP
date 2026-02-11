@@ -48,19 +48,35 @@ The app uses the **OSRM Trip API (TSP optimization)** to generate the shortest p
 ## 📂 Project Structure
 src/
 ├── components/
-│    ├── map/
-│    ├── ui/
+│   ├── map/
+│   │   ├── PujaMap.tsx
+│   │   ├── CustomMarker.tsx
+│   │   └── MapControls.tsx
+│   ├── ui/
+│   │   ├── PandalCard.tsx
+│   │   └── RouteFab.tsx
 ├── screens/
-│    ├── HomeScreen.tsx
-│    ├── RouteScreen.tsx
+│   ├── HomeScreen.tsx
+│   └── RouteScreen.tsx
+├── navigation/
+│   └── RootNavigator.tsx
 ├── services/
-│    └── osrm.ts
+│   └── osrm.ts
 ├── store/
-│    └── useAppStore.ts
+│   └── useAppStore.ts
 ├── data/
-│    └── pandalData.ts
+│   ├── pandalData.ts
+│   └── mockPandals.ts
 ├── styles/
+│   ├── HomeScreen.styles.ts
+│   ├── RouteScreen.styles.ts
+│   ├── PandalCard.styles.ts
+│   ├── RouteFab.styles.ts
+│   └── theme.ts
+├── hooks/
+│   └── useLocation.ts
 └── types/
+└── index.ts
 
 
 ---
